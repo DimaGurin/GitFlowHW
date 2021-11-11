@@ -247,3 +247,101 @@ li:first-child a{
 
 
 /*----------------end of upperblock----------------------*/
+
+
+.middleblock {
+    max-width: 1301px;
+    max-height: 644px;
+    margin: 0 auto;
+    margin-bottom: 298px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.middleblock__inner {
+    max-width: 481px;
+    max-height: 336px;
+    padding: 0px 15px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    align-items: flex-start;
+    order: 2;
+}
+.middleblock__header {
+    font-family: "Playfair Display";
+    font-size: 36px;
+    font-weight: 700;
+    color: #000000;
+}
+.middleblock__paragraph {
+    margin-bottom: 33px;
+    font-family: Mulish;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 17px;
+    line-height: 30px;
+}
+.middleblock__button {
+    width: 180px;
+    height: 60px;
+    text-align: center;
+    background-color: #FB8F1D;
+    color: #ffffff;
+    border-radius: 10px;
+    border-style: solid;
+    border-color: #FB8F1D;
+    cursor: pointer;
+    box-shadow: 3px 20px 40px 0px #fb8a1b
+}
+.middleblock__button:hover {
+    background-color: rgb(250, 67, 67);
+    transition: background-color 0.5s linear;
+    transform: translate(5px, -5px);
+}
+.middleblock__image {
+    max-width: 659px;
+    max-height: 534px;
+}
+@media screen and (max-width: 685px) {
+    .middleblock {
+        margin-bottom: 160px;
+        flex-direction: column;
+        align-items: center;
+    }
+    .middleblock__inner {
+        max-width: 685px;
+        padding: 0 15px;
+        height: auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        order: 0;
+    }
+    .middleblock__header {
+        text-align: center;
+        width: 100%;
+        height: auto;
+        margin-bottom: 10px;
+        font-size: 6vw;
+    }
+    .middleblock__paragraph {
+        text-align: justify;
+    }
+    .middleblock__image {
+        max-width: 600px;
+        max-height: auto;
+    }
+    .middleblock__button {
+        display: none;
+    }
+}
+@media screen and (max-width: 485px) {
+    .middleblock {
+        margin-bottom: 40px;
+    }
+}
+
+
+/*--------------------end of middleblock-----------------------*/
