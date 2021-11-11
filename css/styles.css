@@ -345,3 +345,102 @@ li:first-child a{
 
 
 /*--------------------end of middleblock-----------------------*/
+
+
+
+.featured-block {
+    font-family: "Playfair Display";
+    margin: 0 auto;
+    padding: 15px;
+    margin-bottom: 222px;
+    max-width: 1150px;
+    max-height: 453px;
+    line-height: 50px;
+    font-weight: 700;
+}
+.featured-link {
+    text-decoration: none;
+    color: #FB8F1D;
+}
+.heading {
+    margin-bottom: 76px;
+    display: flex;
+    justify-content: space-between;
+}
+.image__list {
+    display: flex;
+    justify-content: space-evenly;
+}
+.image__container {
+    width: 261px;
+    height: 347px;
+    margin-right: 5px;
+    margin-bottom: 5px;
+    display: flex;
+    position: relative;
+}
+.image__container img {
+    border-radius: 10px;
+}
+.image__contaiin:last-child {
+    margin-right: none; 
+}
+.image__description {
+    font-family: "inter";
+    font-size: 17px;
+    line-height: 25px;
+    font-weight: 600;
+    width: 120px;
+    height: 58px;
+    bottom: 0;
+    left: 0;
+    background-color: white;
+    position: absolute;
+    border-radius: 0px 6px 0px 0px;
+}
+span {
+    color: #80918E;
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 24px;
+}
+@media screen and (max-width: 800px) {
+    .image__list {
+        flex-wrap: wrap;
+        flex-direction: row-reverse;
+     }
+     /*.image__container:nth-child(2n) { order: 1; }
+     .image__container:nth-child(1n+2) { order: 2; }
+     */
+     .featured-block {
+         margin-bottom: 40px;
+         max-height: 866px;
+        }
+        .heading {
+            margin-bottom: 25px;
+        }
+      }
+@media screen and (max-width: 562px) {
+    .image__container {
+        width: 221px;
+        height: 307px;
+    }
+}
+@media screen and (max-width: 482px) {
+    .image__container {
+        width: 181px;
+        height: 277px;
+    }
+}
+@media screen and (max-width: 382px) {
+    .image__container {
+        width: 136px;
+        height: 232px;
+    }
+}
+
+
+/*------------------end of featured-block--------------------*/
+
