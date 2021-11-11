@@ -86,17 +86,14 @@ li:first-child a{
 }
 .register:hover span {display:none}
 .register:hover::after {content:"Push"}
-
 .sign_icon {
     display: none;
 }
-
 .autoriz_wrapper {
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
-
 .line {
     width: 30px;
     height: 5px;
@@ -106,7 +103,6 @@ li:first-child a{
 .burger {
     display: none;
 }
-
 @media screen and (max-width: 760px) {
     .header {
         margin-bottom: 70px;
@@ -133,13 +129,7 @@ li:first-child a{
         margin-bottom: 20px;
     }
 }
-    
-
 /*-----------------end of header---------------------*/
-
-
-
-
 .upperblock {
     margin: 0 auto;
     margin-bottom: 291px;
@@ -193,7 +183,6 @@ li:first-child a{
     max-width: 687px;
     max-height: 643px;
 }
-
 @media screen and (max-width: 685px) {
     .upperblock {
         margin-bottom: 160px;
@@ -244,11 +233,7 @@ li:first-child a{
         margin-bottom: 40px;
     }
 }
-
-
 /*----------------end of upperblock----------------------*/
-
-
 .middleblock {
     max-width: 1301px;
     max-height: 644px;
@@ -342,12 +327,7 @@ li:first-child a{
         margin-bottom: 40px;
     }
 }
-
-
 /*--------------------end of middleblock-----------------------*/
-
-
-
 .featured-block {
     font-family: "Playfair Display";
     margin: 0 auto;
@@ -440,12 +420,7 @@ span {
         height: 232px;
     }
 }
-
-
 /*------------------end of featured-block--------------------*/
-
-
-
 .lowerblock {
     margin: 0 auto;
     margin-bottom: 371px;
@@ -465,7 +440,6 @@ span {
     align-items: flex-start;
 }
 .lowerblock__header {
-    
     font-family: "Playfair Display";
     font-size: 36px;
     font-weight: 700;
@@ -486,7 +460,6 @@ span {
     border-color: #FB8F1D;
     cursor: pointer;
     box-shadow: 3px 20px 40px 0px #fb8a1b
-    
 }
 .lowerblock__button:hover {
     background-color: rgb(250, 67, 67);
@@ -543,11 +516,7 @@ span {
        
     }
 }
-
-
 /*------------------------end of lowerblock---------------------------*/
-
-
 .testimonials {
     margin: 0 auto;
     margin-bottom: 291px;
@@ -656,7 +625,6 @@ span {
         bottom: -16px;
      }
 }
-
 .testimonials__image::after {
     content: "";
     display: block;
@@ -717,12 +685,7 @@ span {
         margin-bottom: 40px;
     }
 }
-
-
 /*------------------------end of testimonials--------------------*/
-
-
-
 .trending-block {
     margin: 0 auto;
     padding: 15px;
@@ -851,11 +814,7 @@ span {
         margin-bottom: 5px;
     }
 }
-
-
 /*-----------------------end of trending----------------------*/
-
-
 .footer {
     height: 482px;
     margin: 0px auto;
@@ -964,5 +923,4 @@ li {
         line-height: 5vw;
     }     
 }
-
 /*----------------------end------------------------*/
