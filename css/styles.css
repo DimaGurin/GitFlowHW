@@ -138,3 +138,112 @@ li:first-child a{
 /*-----------------end of header---------------------*/
 
 
+
+
+.upperblock {
+    margin: 0 auto;
+    margin-bottom: 291px;
+    max-width: 1301px;
+    max-height: 644px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.upperblock__inner {
+    max-width: 370px;
+    max-height: 348px;
+    padding: 0px 15px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    align-items: flex-start;
+}
+.upperblock__header {
+    margin-bottom: 73px;
+    font-family: "Playfair Display";
+    font-size: 64px;
+    font-weight: 700;
+    line-height: 80px;
+    color: #202336;
+}
+.upperblock__paragraph {
+    margin-bottom: 33px;
+}
+.upperblock__button {
+    width: 180px;
+    height: 60px;
+    text-align: center;
+    background-color: #FB8F1D;
+    color: #ffffff;
+    border-radius: 10px;
+    border-style: solid;
+    border-color: #FB8F1D;
+    cursor: pointer;
+    box-shadow: 3px 20px 40px 0px #fb8a1b
+}
+.mobile__button {
+    display: none;
+}
+.upperblock__button:hover {
+    background-color: rgb(250, 67, 67);
+    transition: background-color 0.5s linear;
+    transform: translate(5px, -5px);
+}
+.upperblock__image {
+    max-width: 687px;
+    max-height: 643px;
+}
+
+@media screen and (max-width: 685px) {
+    .upperblock {
+        margin-bottom: 160px;
+        flex-direction: column;
+        align-items: center;
+    }
+    .upperblock__inner {
+        max-width: 685px;
+        padding: 0 15px;
+        height: auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    .upperblock__header {
+        text-align: center;
+        width: 100%;
+        height: auto;
+        margin-bottom: 10px;
+        font-size: 10vw;
+    }
+    .upperblock__image {
+        max-width: 600px;
+        max-height: auto;
+    }
+    .upperblock__button {
+        display: none;
+    }
+    .mobile__button {
+        display: block;
+        width: 90%;
+        max-height: 30px;
+        margin-top: 15px;
+        text-align: center;
+        background-color: #FB8F1D;
+        color: #ffffff;
+        border-radius: 5px;
+        border-style: solid;
+        border-color: #FB8F1D;
+        cursor: pointer;
+        box-shadow: 3px 5px 20px 0px #fb8a1b
+    }
+
+}
+@media screen and (max-width: 485px) {
+    .upperblock {
+        margin-bottom: 40px;
+    }
+}
+
+
+/*----------------end of upperblock----------------------*/
